@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { SessionProvider } from 'next-auth/react';
+import { getLocale } from 'next-intl/server';
 import ServiceWorkerRegistration from '@/components/ServiceWorkerRegistration';
 import './globals.css';
 
@@ -26,9 +27,10 @@ export const viewport: Viewport = {
   themeColor: '#6366f1',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale().catch(() => 'en');
   return (
-    <html lang="en" className="dark">
+    <html lang={locale} className="dark">
       <body className="bg-slate-900 text-slate-100 antialiased">
         <ServiceWorkerRegistration />
         <SessionProvider>{children}</SessionProvider>

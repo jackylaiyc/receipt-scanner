@@ -7,7 +7,6 @@ import { routing } from "@/i18n/routing";
 import { hotelConfig } from "@/lib/hotel/config";
 import HotelHeader from "@/components/hotel/HotelHeader";
 import HotelFooter from "@/components/hotel/HotelFooter";
-import LocaleHtmlLang from "@/components/hotel/LocaleHtmlLang";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -49,7 +48,6 @@ export default async function HotelLocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <LocaleHtmlLang locale={locale} />
       <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
         <HotelHeader />
         <main className="flex-1">{children}</main>

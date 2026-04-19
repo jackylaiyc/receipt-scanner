@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -13,6 +14,40 @@ type Search = {
   adults?: string;
   children?: string;
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; roomTypeId: string }>;
+}): Promise<Metadata> {
+  const { locale, roomTypeId } = await params;
+  const roomId = Number(roomTypeId);
+  if (!Number.isFinite(roomId)) return {};
+  try {
+    const rooms = await getRoomTypes();
+    const room = rooms.find((r) => r.id === roomId);
+    if (!room) return {};
+    const description =
+      room.texts?.[0]?.roomDescription ??
+      room.roomDescription ??
+      `${room.name} at ${hotelConfig.name}`;
+    const image = room.images?.[0]?.url;
+    return {
+      title: room.name,
+      description: description.slice(0, 160),
+      alternates: {
+        canonical: `/${locale}/rooms/${roomId}`,
+      },
+      openGraph: {
+        title: room.name,
+        description: description.slice(0, 160),
+        ...(image ? { images: [image] } : {}),
+      },
+    };
+  } catch {
+    return {};
+  }
+}
 
 export default async function RoomDetailPage({
   params,
