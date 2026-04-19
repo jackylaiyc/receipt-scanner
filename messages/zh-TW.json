@@ -1,0 +1,88 @@
+{
+  "Nav": {
+    "rooms": "房型",
+    "about": "關於我們",
+    "contact": "聯絡",
+    "book": "立即預訂"
+  },
+  "Home": {
+    "heroTitle": "官網直訂，住得更好",
+    "heroSubtitle": "跳過平台抽成 — 直接向我們預訂，享受最低價保證。",
+    "heroCta": "查詢空房",
+    "benefits": {
+      "title": "為何直接預訂",
+      "bestRate": {
+        "title": "最低價保證",
+        "body": "如你在網上找到更低價格，我們即時對價。"
+      },
+      "flexibility": {
+        "title": "彈性取消",
+        "body": "入住前 24 小時內可免費取消。"
+      },
+      "perks": {
+        "title": "直訂專享",
+        "body": "提早入住、延後退房及迎賓飲品。"
+      }
+    }
+  },
+  "Search": {
+    "checkIn": "入住日期",
+    "checkOut": "退房日期",
+    "guests": "人數",
+    "adults": "成人",
+    "children": "小童",
+    "search": "搜尋房間",
+    "nights": "{count} 晚",
+    "selectDates": "請選擇日期以查看空房"
+  },
+  "Rooms": {
+    "title": "我們的房型",
+    "from": "起價",
+    "perNight": "每晚",
+    "viewDetails": "查看詳情",
+    "sleeps": "可住 {count} 人",
+    "noResults": "所選日期沒有可預訂的房間。"
+  },
+  "RoomDetail": {
+    "amenities": "設施",
+    "description": "房間介紹",
+    "bookNow": "立即預訂",
+    "total": "總額",
+    "backToRooms": "返回房型列表"
+  },
+  "Booking": {
+    "title": "完成預訂",
+    "summary": "預訂摘要",
+    "guestInfo": "住客資料",
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "email": "電郵",
+    "phone": "電話",
+    "country": "國家／地區",
+    "arrivalTime": "預計到達時間（選填）",
+    "specialRequests": "特別要求（選填）",
+    "paymentMethod": "付款方式",
+    "payWithCard": "信用卡付款",
+    "payWithPayPal": "PayPal 付款",
+    "agreeTerms": "本人同意取消政策及住宿守則。",
+    "submit": "前往付款",
+    "processing": "處理中…",
+    "error": "發生錯誤，請再試一次。"
+  },
+  "Confirmation": {
+    "title": "預訂已確認",
+    "subtitle": "多謝 — 您的訂房已成功。",
+    "reference": "訂單編號",
+    "email": "確認郵件已發送至您的電郵。",
+    "backHome": "返回首頁"
+  },
+  "Cancel": {
+    "title": "付款已取消",
+    "subtitle": "未有產生任何費用，您可隨時再試。",
+    "tryAgain": "重新預訂"
+  },
+  "Footer": {
+    "copyright": "© {year} {hotelName}。版權所有。",
+    "language": "語言"
+  }
+}

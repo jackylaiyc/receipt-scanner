@@ -1,0 +1,88 @@
+{
+  "Nav": {
+    "rooms": "客室",
+    "about": "ホテル情報",
+    "contact": "お問い合わせ",
+    "book": "今すぐ予約"
+  },
+  "Home": {
+    "heroTitle": "公式サイトから直接予約",
+    "heroSubtitle": "仲介手数料なし — 公式予約限定の最低価格保証。",
+    "heroCta": "空室を検索",
+    "benefits": {
+      "title": "公式予約の特典",
+      "bestRate": {
+        "title": "最低価格保証",
+        "body": "他サイトでより安い料金を見つけた場合、同額で対応します。"
+      },
+      "flexibility": {
+        "title": "柔軟なキャンセル",
+        "body": "チェックイン 24 時間前まで無料キャンセル可能。"
+      },
+      "perks": {
+        "title": "公式限定の特典",
+        "body": "アーリーチェックイン、レイトチェックアウト、ウェルカムドリンク付き。"
+      }
+    }
+  },
+  "Search": {
+    "checkIn": "チェックイン",
+    "checkOut": "チェックアウト",
+    "guests": "人数",
+    "adults": "大人",
+    "children": "子供",
+    "search": "検索",
+    "nights": "{count} 泊",
+    "selectDates": "日付を選択してください"
+  },
+  "Rooms": {
+    "title": "客室一覧",
+    "from": "～",
+    "perNight": "1泊あたり",
+    "viewDetails": "詳細を見る",
+    "sleeps": "定員 {count} 名",
+    "noResults": "選択された日付に空室はありません。"
+  },
+  "RoomDetail": {
+    "amenities": "設備・アメニティ",
+    "description": "客室について",
+    "bookNow": "予約する",
+    "total": "合計",
+    "backToRooms": "客室一覧に戻る"
+  },
+  "Booking": {
+    "title": "ご予約の確定",
+    "summary": "予約内容",
+    "guestInfo": "お客様情報",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "country": "国／地域",
+    "arrivalTime": "到着予定時刻（任意）",
+    "specialRequests": "ご要望（任意）",
+    "paymentMethod": "お支払い方法",
+    "payWithCard": "クレジットカードで支払う",
+    "payWithPayPal": "PayPal で支払う",
+    "agreeTerms": "キャンセルポリシーおよび館内規則に同意します。",
+    "submit": "お支払いへ進む",
+    "processing": "処理中…",
+    "error": "エラーが発生しました。もう一度お試しください。"
+  },
+  "Confirmation": {
+    "title": "ご予約確定",
+    "subtitle": "ありがとうございます — ご予約が完了しました。",
+    "reference": "予約番号",
+    "email": "確認メールをお送りしました。",
+    "backHome": "ホームへ戻る"
+  },
+  "Cancel": {
+    "title": "お支払いがキャンセルされました",
+    "subtitle": "課金は発生していません。いつでも再度お試しいただけます。",
+    "tryAgain": "もう一度お試しください"
+  },
+  "Footer": {
+    "copyright": "© {year} {hotelName}. All rights reserved.",
+    "language": "言語"
+  }
+}
