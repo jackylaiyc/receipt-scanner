@@ -1,0 +1,88 @@
+{
+  "Nav": {
+    "rooms": "Rooms",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "Home": {
+    "heroTitle": "Book direct, stay better",
+    "heroSubtitle": "Skip the booking fees — reserve directly with us and enjoy our best rate guarantee.",
+    "heroCta": "Check availability",
+    "benefits": {
+      "title": "Why book direct",
+      "bestRate": {
+        "title": "Best rate guarantee",
+        "body": "We match any lower price you find online."
+      },
+      "flexibility": {
+        "title": "Flexible cancellation",
+        "body": "Free cancellation up to 24 hours before check-in."
+      },
+      "perks": {
+        "title": "Direct-booking perks",
+        "body": "Early check-in, late check-out and welcome drinks on us."
+      }
+    }
+  },
+  "Search": {
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "adults": "Adults",
+    "children": "Children",
+    "search": "Search rooms",
+    "nights": "{count, plural, =1 {# night} other {# nights}}",
+    "selectDates": "Select dates to see availability"
+  },
+  "Rooms": {
+    "title": "Our rooms",
+    "from": "From",
+    "perNight": "per night",
+    "viewDetails": "View details",
+    "sleeps": "{count, plural, =1 {Sleeps #} other {Sleeps #}}",
+    "noResults": "No rooms available for the selected dates."
+  },
+  "RoomDetail": {
+    "amenities": "Amenities",
+    "description": "About this room",
+    "bookNow": "Book now",
+    "total": "Total",
+    "backToRooms": "Back to rooms"
+  },
+  "Booking": {
+    "title": "Complete your booking",
+    "summary": "Booking summary",
+    "guestInfo": "Guest information",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country",
+    "arrivalTime": "Estimated arrival time (optional)",
+    "specialRequests": "Special requests (optional)",
+    "paymentMethod": "Payment method",
+    "payWithCard": "Pay with card",
+    "payWithPayPal": "Pay with PayPal",
+    "agreeTerms": "I agree to the cancellation policy and house rules.",
+    "submit": "Continue to payment",
+    "processing": "Processing…",
+    "error": "Something went wrong. Please try again."
+  },
+  "Confirmation": {
+    "title": "Booking confirmed",
+    "subtitle": "Thank you — your reservation is on its way.",
+    "reference": "Booking reference",
+    "email": "A confirmation has been sent to your email.",
+    "backHome": "Back to home"
+  },
+  "Cancel": {
+    "title": "Payment cancelled",
+    "subtitle": "No charges were made. You can try again whenever you're ready.",
+    "tryAgain": "Try again"
+  },
+  "Footer": {
+    "copyright": "© {year} {hotelName}. All rights reserved.",
+    "language": "Language"
+  }
+}
